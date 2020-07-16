@@ -33,6 +33,7 @@ def get_tweet_from(lyrics):
     random_num = random.randrange(0, len(lines) - 1)
     tweet = lines[random_num] + "\n" + lines[random_num + 1]
     tweet = tweet.replace("\\", "")
+    tweet = tweet + "\n\n" + "-" + " " + song
     return tweet
 
 lyrics, song = get_raw_lyrics()
