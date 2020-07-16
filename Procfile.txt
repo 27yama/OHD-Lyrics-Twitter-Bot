@@ -1,0 +1,1 @@
+worker: OHDLyricBot.py
