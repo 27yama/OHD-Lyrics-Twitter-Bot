@@ -1,4 +1,3 @@
-import lyricsgenius
 import tweepy
 import random
 import os
